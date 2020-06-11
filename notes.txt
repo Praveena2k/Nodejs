@@ -1,0 +1,7 @@
+EJS:
+  <%= %> - text
+  loop:
+  <% if() { %>
+  <% } %>
+
+  rendering- <%- include('path') %>

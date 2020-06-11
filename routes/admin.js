@@ -8,7 +8,7 @@ const products=[];
 
 router.get('/add-product',(req, res, next) => {
     console.log('In add product!');
-    res.render('add-product', { pageTitle: 'Add Product', path: '/admin/add-product', formsCSS: true, productCSS: true, activeAddProduct: true });
+    res.render('add-product', { pageTitle: 'Add Product', path: '/add-product', formsCSS: true, productCSS: true, activeAddProduct: true });
     //res.render('add-product',{pageTitle: 'Add Product',path:'/add-product'}); pug 
     //res.sendFile(path.join(routDir, 'views', 'add-product.html'));  //(3)
     //res.sendFile(path.join(__dirname, '..', 'views', 'add-product.html')); (2)
